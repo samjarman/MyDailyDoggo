@@ -1,7 +1,7 @@
 # Daily Doggo
 
 
-Daily Doggo is used to power the @MyDailyDoggo twitter account. It takes images from Flickr, with the tag "dog", daily and tweets them. 
+Daily Doggo is used to power the [@MyDailyDoggo](https://twitter.com/MyDailyDoggo) twitter account. It takes images from Flickr, with the tag "dog", daily and tweets them. 
 
 ## Requirements 
 
