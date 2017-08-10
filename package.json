@@ -1,0 +1,8 @@
+{
+  "name": "dailydoggo",
+  "version": "0.1.0",
+  "description": "Tweeting photos of doggos, daily.",
+  "main": "handler.js",
+  "author": "Sam Jarman",
+  "license": "MIT"
+}

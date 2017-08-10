@@ -1,0 +1,36 @@
+# Welcome to Serverless!
+#
+# This file is the main config file for your service.
+# It's very minimal at this point and uses default values.
+# You can always add more config options for more control.
+# We've included some commented out config examples here.
+# Just uncomment any of them to get that config option.
+#
+# For full config options, check the docs:
+#    docs.serverless.com
+#
+# Happy Coding!
+
+service: aws-nodejs # NOTE: update this with your service name
+
+# You can pin your service to only deploy with a specific Serverless version
+# Check out our docs for more details
+# frameworkVersion: "=X.X.X"
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+  environment:
+    FLICKR_API_KEY: TODO
+    TWITTER_CONSUMER_KEY: TODO
+    TWITTER_CONSUMER_SECRET: TODO
+    TWITTER_ACCESS_TOKEN: TODO
+    TWITTER_ACCESS_SECRET: TODO
+
+functions:
+  dailydoggo:
+    handler: handler.dailydoggo
+    events:
+      - schedule: rate(1 day)
+  
